@@ -36,9 +36,16 @@ export interface Project {
   id: string;
   title: string;
   description: string;
+  fullDescription: string;
   category: string;
   image: string;
   technologies: string[];
+  features: string[];
+  challenges: string;
+  solution: string;
+  results: string;
+  demoUrl?: string;
+  githubUrl?: string;
 }
 
 export interface Skill {
@@ -52,4 +59,16 @@ export interface Service {
   title: string;
   description: string;
   icon: string;
+}
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  category: string;
+  author: string;
+  date: string;
+  readTime: string;
+  tags: string[];
 }
