@@ -82,7 +82,7 @@ app.use((req, res, next) => {
 
   // ALWAYS serve the app on the port specified in the environment variable PORT
   // Default to 5000 if not specified.
-  const port = parseInt(process.env.PORT || "3000", 10);
+  const port = parseInt(process.env.PORT || "8000", 10);
   
   // PERBAIKAN DI SINI: Menggunakan 127.0.0.1 dan menghapus opsi reusePort
   httpServer.listen(port, "127.0.0.1", () => {
