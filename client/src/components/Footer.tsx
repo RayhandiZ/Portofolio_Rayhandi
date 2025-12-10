@@ -88,8 +88,7 @@ export function Footer() {
 
           <div className="text-center text-muted-foreground text-sm">
             <p className="flex items-center justify-center gap-1">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by
-              Rayhandi Zulmi
+              Made with by Rayhandi Zulmi
             </p>
             <p className="mt-1">
               {currentYear} All rights reserved.

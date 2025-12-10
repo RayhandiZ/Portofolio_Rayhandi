@@ -157,9 +157,11 @@ export function About() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-purple-500/20 to-transparent rounded-2xl blur-xl" />
               <Card className="relative overflow-hidden p-6">
                 <div className="aspect-square rounded-xl overflow-hidden bg-gradient-to-br from-card to-muted flex items-center justify-center mb-6">
-                  <span className="font-heading text-8xl font-bold gradient-text">
-                    RZ
-                  </span>
+                  <img
+                    src="/foto_aboutme.jpg"
+                    alt="Rayhandi Zulmi"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div className="text-center">
                   <h3 className="font-heading text-xl font-bold mb-1">

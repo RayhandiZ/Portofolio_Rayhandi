@@ -168,9 +168,11 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-purple-500/30 to-blue-500/30 rounded-full blur-2xl animate-pulse-glow" />
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/30 gradient-border">
                 <div className="w-full h-full bg-gradient-to-br from-card to-muted flex items-center justify-center">
-                  <span className="font-heading text-6xl md:text-7xl lg:text-8xl font-bold gradient-text">
-                    RZ
-                  </span>
+                    <img
+                      src="/foto_profil.jpg"
+                      className="w-full h-full object-cover"
+                      alt="Rayhandi Zulmi"
+                    />
                 </div>
               </div>
               <div className="absolute -bottom-4 -right-4 animate-float">

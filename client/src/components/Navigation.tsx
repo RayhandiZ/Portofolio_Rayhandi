@@ -92,7 +92,7 @@ export function Navigation() {
 
           <div className="hidden md:flex items-center gap-2">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rayhandi-zulmi-94333a360"
               target="_blank"
               rel="noopener noreferrer"
               data-testid="link-linkedin"
@@ -102,7 +102,7 @@ export function Navigation() {
               </Button>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/RayhandiZ/Portofolio_Rayhandi"
               target="_blank"
               rel="noopener noreferrer"
               data-testid="link-github"
